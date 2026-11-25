@@ -3,6 +3,8 @@
 
 Writes the final roast line to /output/entry.txt and to entry.txt
 in the repo root. Deterministic: no randomness, no network.
+Output is exactly LINE with no trailing newline (126 chars,
+inside the competition's 1-200 character gate).
 """
 
 import os
